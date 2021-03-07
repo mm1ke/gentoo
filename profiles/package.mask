@@ -32,6 +32,13 @@
 
 #--- END OF EXAMPLES ---
 
+# Michael Mair-Keimberger <mmk@levelnine.at> (2021-03-07)
+# Unmaintained, release candidate from 2015 while latest release is from 2021
+# (version 2.0.1), this package needs a dedicated maintainer
+# Removal on 2021-04-07.  Bug #538180, #520610, #628604, #558154, #665814
+app-admin/sagan
+app-admin/sagan-rules
+
 # William Hubbs <williamh@gentoo.org> (2021-03-07)
 # Dependency issues, need resolution upstream
 =app-emulation/docker-20.10.4
