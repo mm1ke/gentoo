@@ -30,10 +30,10 @@ DEPEND="
 	dev-qt/qtgui:5
 	dev-qt/qtwidgets:5
 	dev-qt/qtx11extras:5
+	sys-apps/util-linux
 	=x11-libs/libfm-qt-$(ver_cut 1-2)*
 	x11-libs/libxcb:=
 	x11-misc/xdg-utils
-	virtual/eject
 	virtual/freedesktop-icon-theme
 "
 RDEPEND="${DEPEND}
