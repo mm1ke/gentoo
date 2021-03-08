@@ -23,17 +23,17 @@ KEYWORDS="~alpha amd64 arm arm64 ~mips ppc x86"
 IUSE="debug"
 
 RDEPEND=">=dev-libs/glib-2.18:2
-	>=x11-libs/gtk+-2.16:2
 	>=lxde-base/menu-cache-0.3.2
-	x11-misc/shared-mime-info
+	sys-apps/util-linux
+	virtual/freedesktop-icon-theme
+	>=x11-libs/gtk+-2.16:2
 	>=x11-libs/libfm-${PV}:=[gtk(+)]
-	virtual/eject
-	virtual/freedesktop-icon-theme"
+	x11-misc/shared-mime-info"
 DEPEND="${RDEPEND}
 	app-arch/xz-utils
 	>=dev-util/intltool-0.40
-	virtual/pkgconfig
-	sys-devel/gettext"
+	sys-devel/gettext
+	virtual/pkgconfig"
 
 S="${WORKDIR}"/${MY_P}
 
